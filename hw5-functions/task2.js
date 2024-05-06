@@ -12,15 +12,16 @@ checkAge1(15)
 
 // Варіант 2
 let checkAge2 = age => {
-    if (age <= 0 || age >= 123) {
-        return 'The input data contains an error. Check that the age is correct.'
-    }
-    if (age < 18) {
-        return false
-    }
-    if (age >= 18) {
-        return true
-    }
+    // if (age <= 0 || age >= 123) {
+    //     return 'The input data contains an error. Check that the age is correct.'
+    // }
+    // if (age < 18) {
+    //     return false
+    // }
+    // if (age >= 18) {
+    //     return true
+    // }
+    return age >= 18
 }
 
 console.log(`Is the person an adult? - ${checkAge2(25)}`)
