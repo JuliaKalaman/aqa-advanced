@@ -22,11 +22,11 @@ console.log(book2.year);
 console.log(book2.fileFormat);
 
 // Task 4
-let book3 = new EBook('Nineteen Eighty-Four', 'George Orwell', 1949, 'fb2')
+let book3 = new EBook('Nineteen Eighty-Four', 'George Orwell', 1949, 'fb2');
 let library = [book1, book2, book3];
-console.log('The oldest book is:', Book.showOldestBook(library))
+console.log('The oldest book is:', Book.showOldestBook(library));
 
 // Task 5
-let book4 = new Book('Invisible Monsters', 'Chuck Palahniuk', 1999)
-let format = 'epub'
-console.log(EBook.newBook(book4, format))
+let book4 = new Book('Invisible Monsters', 'Chuck Palahniuk', 1999);
+let format = 'epub';
+console.log(EBook.newBook(book4, format));

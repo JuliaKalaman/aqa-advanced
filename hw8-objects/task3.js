@@ -11,19 +11,19 @@
 // 2.Виведіть об'єкт car3 в консоль.
 
 const car1 = {
-    brand: 'Volkswagen',
-    model: 'Touareg',
-    year: 2023
-}
+	brand: 'Volkswagen',
+	model: 'Touareg',
+	year: 2023,
+};
 
 const car2 = {
-    brand: 'Mercedes',
-    model: 'CLE Cabriolet',
-    owner: 'Tom Green'
-}
+	brand: 'Mercedes',
+	model: 'CLE Cabriolet',
+	owner: 'Tom Green',
+};
 
-const car3 = { ...car1, ...car2 }
-console.log(car3)
+const car3 = { ...car1, ...car2 };
+console.log(car3);
 
-const car4 = { ...car2, ...car1 } // там, де ключі в обох об'єктів однакові, в результаті застосування оператора spread, в кінцевий об'єкт передаються значення останнього об'єкта. Виходить, що має значення послідовність.
-console.log(car4)
+const car4 = { ...car2, ...car1 }; // там, де ключі в обох об'єктів однакові, в результаті застосування оператора spread, в кінцевий об'єкт передаються значення останнього об'єкта. Виходить, що має значення послідовність.
+console.log(car4);

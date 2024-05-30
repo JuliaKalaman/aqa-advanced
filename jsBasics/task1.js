@@ -11,4 +11,4 @@ console.log(name);
 console.log(age);
 console.log(isFemale);
 console.log(job);
-console.log(location)
+console.log(location);

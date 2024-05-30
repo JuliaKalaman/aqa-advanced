@@ -8,4 +8,4 @@ let sayHi1 = 'Hello dear ' + boy + ' and ' + girl + '! Nice to see you both!';
 console.log(sayHi1);
 
 let sayHi2 = `Hello dear ${boy} and ${girl}! Nice to see you both!`;
-console.log(sayHi2)
+console.log(sayHi2);

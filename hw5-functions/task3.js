@@ -19,10 +19,10 @@ function checkOrder1(available, ordered) {
 	}
 }
 
-checkOrder1(10, 2)
-checkOrder1(10, 10)
-checkOrder1(10, 11)
-checkOrder1(10, 0)
+checkOrder1(10, 2);
+checkOrder1(10, 10);
+checkOrder1(10, 11);
+checkOrder1(10, 0);
 
 // Варіант 2
 function checkOrder2(available, ordered) {

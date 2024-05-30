@@ -1,14 +1,24 @@
 {
-  "name": "aqa-advanced",
-  "version": "1.0.0",
-  "description": "hillel_aqa_practice",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chalk": "^5.3.0"
-  }
+	"name": "aqa-advanced",
+	"version": "1.0.0",
+	"description": "hillel_aqa_practice",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"prepare": "husky install",
+		"lint": "npx eslint --fix .",
+		"prettier": "npx prettier . --write"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"chalk": "^5.3.0",
+		"husky": "^9.0.11"
+	},
+	"devDependencies": {
+		"@eslint/js": "^9.3.0",
+		"eslint": "^9.3.0",
+		"globals": "^15.3.0",
+		"prettier": "3.2.5"
+	}
 }
