@@ -6,24 +6,23 @@
 // 4. Перевірте чи число позитивне, негативне чи нульове, та збільште відповідну змінну (positiveCount, negativeCount або zeroCount) на 1.
 // 5. Після завершення циклу виведіть значення змінних positiveCount, negativeCount та zeroCount на консоль.
 
-
 const numbers = [2, -5, 0, 7, -3, 0, 10, -8];
 let zeroCount = 0;
 let positiveCount = 0;
 let negativeCount = 0;
 
 for (let i = 0; i < numbers.length; i++) {
-    if (numbers[i] > 0) {
-        positiveCount++
-    }
-    if (numbers[i] < 0) {
-        negativeCount++
-    }
-    if (numbers[i] === 0) {
-        zeroCount++
-    }
-};
+	if (numbers[i] > 0) {
+		positiveCount++;
+	}
+	if (numbers[i] < 0) {
+		negativeCount++;
+	}
+	if (numbers[i] === 0) {
+		zeroCount++;
+	}
+}
 
 console.log(`Кількість позитивних чисел: ${positiveCount}`);
 console.log(`Кількість негативних чисел: ${negativeCount}`);
-console.log(`Кількість нульових чисел: ${zeroCount}`)
+console.log(`Кількість нульових чисел: ${zeroCount}`);

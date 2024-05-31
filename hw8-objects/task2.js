@@ -7,12 +7,12 @@
 // 3.Виведіть деструктуризовані змінні в консоль
 
 const book = {
-    title: 'Hard-boiled Wonderland and the End of the World',
-    author: 'Murakami Haruki',
-    year: 1985
-}
+	title: 'Hard-boiled Wonderland and the End of the World',
+	author: 'Murakami Haruki',
+	year: 1985,
+};
 
 const { title: bookTitle } = book;
 const { author: bookAuthor } = book;
 console.log(bookTitle);
-console.log(bookAuthor)
+console.log(bookAuthor);

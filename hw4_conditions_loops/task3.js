@@ -6,20 +6,20 @@
 // Використовуючи цикл for, створіть таблицю множення для обраного числа від 1 до 10. Виведіть результат в консоль.
 // Використовуючи цикл while створіть аналогічну таблицю множення та виведіть її в консоль.
 
-console.log('Виведення за допомогою for:')
+console.log('Виведення за допомогою for:');
 
 const number = 5;
 
 for (let i = 1; i <= 10; i++) {
-    let result = number * i
-    console.log(`${number} x ${i} = ${result}`)
-};
+	let result = number * i;
+	console.log(`${number} x ${i} = ${result}`);
+}
 
-console.log('\n Виведення за допомогою while:')
+console.log('\n Виведення за допомогою while:');
 
 let j = 1;
 while (j <= 10) {
-    let result = number * j
-    console.log(`${number} x ${j} = ${result}`)
-    j++
+	let result = number * j;
+	console.log(`${number} x ${j} = ${result}`);
+	j++;
 }

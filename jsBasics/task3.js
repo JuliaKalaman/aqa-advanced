@@ -5,6 +5,6 @@
 
 let age = 16;
 let isAdult;
-isAdult = age >= 18
+isAdult = age >= 18;
 // age >= 18 ? isAdult = true : isAdult = false;
-console.log(`Age = ${age}, is adult: ${isAdult}`)
+console.log(`Age = ${age}, is adult: ${isAdult}`);

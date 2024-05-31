@@ -7,17 +7,17 @@
 // Викличте функцію handleNum і передайте в якості аргументів довільне число і дві функції, які ви створили раніше
 
 function handleNum(num, fnEven, fnOdd) {
-    return num % 2 === 0 ? fnEven() : fnOdd()
-};
+	return num % 2 === 0 ? fnEven() : fnOdd();
+}
 
 function handleEven() {
-    return console.log('number is even')
-};
+	return console.log('number is even');
+}
 
 function handleOdd() {
-    return console.log('number is odd')
-};
+	return console.log('number is odd');
+}
 
-const checking = handleNum
+const checking = handleNum;
 
-checking(5, handleEven, handleOdd)
+checking(5, handleEven, handleOdd);

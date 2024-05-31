@@ -11,8 +11,8 @@ console.log(secondArray);
 
 // імплементування .map() через .reduce()
 const secondArray2 = firstArray.reduce((accu, curr, index) => {
-    accu.push(curr * index)
-    return accu
+	accu.push(curr * index);
+	return accu;
 }, []);
 
-console.log(secondArray2)
+console.log(secondArray2);

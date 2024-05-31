@@ -7,4 +7,4 @@
 
 const myArray = [10, 20, 30, 40, 50];
 const sumMyArrayElements = myArray.reduce((acc, curr) => acc + curr, 0);
-console.log(sumMyArrayElements)
+console.log(sumMyArrayElements);

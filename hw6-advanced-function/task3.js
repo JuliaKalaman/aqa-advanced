@@ -8,45 +8,42 @@
 // Огорніть кожен окремий виклик функції divide в try…catch.Використовуючи блок finally, виведіть повідомлення "Робота завершена" в консоль, навіть якщо помилка виникла або не виникла.
 
 function divide(numerator, denominator) {
-    if (denominator === 0 || !Number.isFinite(numerator) || !Number.isFinite(denominator)) {
-        throw new Error('The operands contain an error, the division operation is not possible');
-    } else {
-        let result = numerator / denominator;
-        return console.log(result)
-    }
-};
+	if (denominator === 0 || !Number.isFinite(numerator) || !Number.isFinite(denominator)) {
+		throw new Error('The operands contain an error, the division operation is not possible');
+	} else {
+		let result = numerator / denominator;
+		return console.log(result);
+	}
+}
 
 try {
-    divide(25, 4.25);
+	divide(25, 4.25);
 } catch (e) {
-    console.error(e);
+	console.error(e);
 } finally {
-    console.log('Робота завершена')
-};
-
+	console.log('Робота завершена');
+}
 
 try {
-    divide(false, 4);
+	divide(false, 4);
 } catch (e) {
-    console.error(e);
+	console.error(e);
 } finally {
-    console.log('Робота завершена')
-};
-
+	console.log('Робота завершена');
+}
 
 try {
-    divide(2, 'a');
+	divide(2, 'a');
 } catch (e) {
-    console.error(e);
+	console.error(e);
 } finally {
-    console.log('Робота завершена')
-};
-
+	console.log('Робота завершена');
+}
 
 try {
-    divide(12, 0);
+	divide(12, 0);
 } catch (e) {
-    console.error(e);
+	console.error(e);
 } finally {
-    console.log('Робота завершена')
-};
+	console.log('Робота завершена');
+}
