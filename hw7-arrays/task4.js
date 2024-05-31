@@ -7,13 +7,13 @@
 
 const someArry = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const evenArry = someArry.filter((el) => el % 2 === 0);
-console.log(evenArry)
+console.log(evenArry);
 
 // імплементування .filter() через .reduce()
 const evenArry2 = someArry.reduce((accumulator, currentValue) => {
-    if (currentValue % 2 === 0) {
-        accumulator.push(currentValue)
-    }
-    return accumulator
+	if (currentValue % 2 === 0) {
+		accumulator.push(currentValue);
+	}
+	return accumulator;
 }, []);
-console.log(evenArry2)
+console.log(evenArry2);

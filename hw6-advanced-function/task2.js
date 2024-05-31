@@ -6,10 +6,10 @@
 // Викличте вашу функцію з аргументом, наприклад, 5, щоб почати рекурсивний лічильник.
 
 function counter(num) {
-    if (num > 0) {
-        counter(num - 1);
-    } console.log(num)
-};
+	if (num > 0) {
+		counter(num - 1);
+	}
+	console.log(num);
+}
 
 counter(5);
-

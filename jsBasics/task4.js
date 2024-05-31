@@ -17,21 +17,19 @@
 
 // Округліть кожне отримане значення до 2 значень після крапки
 
-
 //Рішення 4.1
 let radius = 8;
 let circleArea = Math.PI * Math.pow(radius, 2);
-console.log(Number(circleArea.toFixed(2))) //перший спосіб: toFixed() можна задати потрібну кількість знаків після коми, але повертає рядок, тому треба приводити назад до числа
-
+console.log(Number(circleArea.toFixed(2))); //перший спосіб: toFixed() можна задати потрібну кількість знаків після коми, але повертає рядок, тому треба приводити назад до числа
 
 //Рішення 4.2
 let length = 32.19;
 let width = 10.13;
 let rectangleArea = length * width;
-console.log(Math.round(rectangleArea * 100) / 100) //другий спосіб
+console.log(Math.round(rectangleArea * 100) / 100); //другий спосіб
 
 //Рішення 4.3
 let radiusCylinder = 5;
 let heightCylinder = 12;
 let volumeCylinder = Math.PI * Math.pow(radiusCylinder, 2) * heightCylinder;
-console.log(Math.round(volumeCylinder * 100) / 100) 
+console.log(Math.round(volumeCylinder * 100) / 100);
